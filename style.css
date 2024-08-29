@@ -1,0 +1,158 @@
+body {
+    font-family: 'Centrale Sans Regular', sans-serif;
+}
+.welcome-text {
+    font-size: 0.7rem;
+}
+/* Featured Posts Carousel */
+.featured-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.featured-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 180px; /* Set a fixed height */
+}
+
+.featured-card .card-body {
+    flex: 1; /* Makes sure the body takes up the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btnabt {
+    background-color: #f26522;
+    color: #fff;
+}
+.carousel-item {
+    padding: 0 15px; /* Space around each carousel item */
+}
+
+
+.testimonial-card {
+    margin-bottom: 20px;
+}
+
+/* Set a maximum height for the carousel images */
+.carousel-inner img {
+    max-height: 30rem;
+    object-fit: cover;
+    margin: 0 auto; 
+}
+
+.top-bar {
+    background-color: #000;
+    color: #fff;
+    padding: 2px 0;
+}
+
+.social-icons a {
+    color: #f26522;
+    margin-left: 20px;
+    font-size: 0.8rem;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+.fellow-btn {
+    background-color: #f26522;
+    color: #fff;
+}
+
+/* Apply box shadow to all cards */
+.testimonial-card .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow changes */
+}
+
+/* Increase the shadow on hover */
+.testimonial-card .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+#mc_embed_signup {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#mc_embed_signup h2 {
+    margin-bottom: 20px;
+}
+
+#mc-embedded-subscribe {
+    background-color: #f26522;
+    border-color: #f26522;
+    color: #fff;
+    font-weight: bold;
+}
+
+#mc-embedded-subscribe:hover {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-t{
+    background-color: #000;
+}
+
+.CLP-blog{
+    background-color: #000;
+}
+
+.btn-more{
+    background-color: #f26522;
+    border-color: #f26522;
+    color: #fff;
+}
+
+.btn-more:hover{
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    color: #fff;
+}
+
+/* Adjustments for responsive layout */
+@media (max-width: 767.98px) {
+    .logo img {
+        max-width: 150px;
+    }
+
+    .testimonials-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .cta-button a {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo img {
+        max-width: 200px;
+    }
+
+    .testimonials-header h2 {
+        font-size: 2rem;
+    }
+
+    .cta-button a {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}
